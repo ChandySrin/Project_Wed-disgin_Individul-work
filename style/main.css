@@ -1,0 +1,65 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+:root {
+  --main-color: #F4C542;
+/* Soft Golden Yellow */
+  --secondary-color: #F9F9F9;
+  /* Light Background */
+  --accent-color: #84B6F4;
+  /* Baby Blue */
+  --success-color: #A3D9A5;
+  /* Mint Green */
+  --highlight-color: #F7C6C7;
+  /* Soft Pink */
+  --text-color: #333333;
+  /* Neutral Gray */
+  --background-color: #FFFFFF;
+  /* Clean White */
+}
+
+
+body {
+  background-color: var(--background-color);
+  font-family: "Arial", sans-serif;
+  height: 100vh;
+}
+.header .logo img{
+  padding-left: 15%;
+  width: 10%;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 40px;
+  align-items: center;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+}
+.navbar a{
+  text-decoration: none;
+  padding: 10px;
+  color: var(--text-color);
+  font-size: larger;
+}
+
+
+.hometext{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: var(--main-color); */
+  height: 100vh;
+}
+.hometext .slogan h1{
+  margin: 30px 0px;
+}
+.hometext .slogan span{
+  color: var(--success-color);
+}
+.hometext .imagehome img{
+  width: 500px;
+  /* background: #A3D9A5; */
+}
